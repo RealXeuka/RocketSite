@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  margin: 0;
+  display: flex;
+  height: auto;
+  overflow-y: auto;
+}
+
+.homepage-title {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 40px;
+  color: red;
+  top: 16px;
+  left: 16px;
+}
+
+.title {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 115px;
+  left: 16px;
+}
+
+.title2 {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 225px;
+  left: 16px;
+}
+
+.title3 {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 598px;
+  left: 16px;
+}
+
+.title4 {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 900px;
+  left: 16px;
+}
+
+.link {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.box1 {
+  box-shadow: 0 0 5px #ff0000;
+  background-color: #0a0a0a;
+  border-radius: 8px;
+  line-height: 1.5em; 
+  min-height: 20px;
+  max-width: 800px; 
+  position: relative;
+  overflow: auto; 
+  padding: 15px;
+  width: 93%; 
+  box-sizing: border-box;
+}
+.box2 {
+  box-shadow: 0 0 5px #ff0000;
+  background-color: #0a0a0a;
+  border-radius: 8px;
+  line-height: 1.5em; 
+  min-height: 20px;
+  max-width: 800px; 
+  position: relative;
+  overflow: auto; 
+  padding: 15px;
+  width: 93%; 
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+.box3 {
+  box-shadow: 0 0 5px #ff0000;
+  background-color: #0a0a0a;
+  border-radius: 8px;
+  line-height: 1.5em; 
+  min-height: 20px;
+  max-width: 800px; 
+  position: relative;
+  overflow: auto; 
+  padding: 15px;
+  width: 93%; 
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+
+.box4 {
+  box-shadow: 0 0 5px #ff0000;
+  background-color: #0a0a0a;
+  border-radius: 8px;
+  line-height: 1.5em; 
+  min-height: 20px;
+  max-width: 800px; 
+  position: relative;
+  overflow: auto; 
+  padding: 15px;
+  width: 93%; 
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+
+pre {
+  background-color: #0a0a0a;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+  word-wrap: break-word;
+  width: 100%;
+  box-sizing: border-box;
+  }
