@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="./CSS/index.css">
+</head>
+<body>
+  <div class="homepage-title">Homepage</div>
+  <div class="title">Install Command</div>
+  <div class="title2">Send Message Function</div>
+  <div class="title3">Case Example</div>
+  <div class="title4">Download</div>
+  <div class="container">
+    <div class="box1">
+      <pre id="code1">yarn add @xeuka/baileys</pre>
+    </div>
+    <div class="box2">
+      <pre id="code2">rocket.sendjson = (jidss, jsontxt = {}, outrasconfig = {}) => {
+  const allmsg = generateWAMessageFromContent(
+    jidss,
+    proto.Message.fromObject(jsontxt),
+    outrasconfig
+    ); 
+  return rocket.relayMessage(jidss, allmsg.message, {
+    messageId: allmsg.key.sender
+    }
+  )
+};</pre>
+    </div>
+    <div class="box3">
+      <pre id="code3">case 'test': {
+  rocket.sendjson(from, {
+    "extendedTextMessage":{
+      "text":"This is an Example!"
+      }
+    }
+  )
+}
+break;</pre>
+    </div>
+<div class="box4">
+  <pre id="code4">Download my Bot Base: <span class="link" onclick="window.location.href='https://t.me/RocketClient/63';">Download</span>
+  
+Commands:
+apt update
+apt upgrade
+pkg install nodejs</pre>
+</div>
+<div class="box5">
+  <pre id="code5"></pre>
+</div>
+  </div>
+  <script src="./JS/index.js"></script>
+</body>
+</html>
