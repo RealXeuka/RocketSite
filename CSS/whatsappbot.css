@@ -195,3 +195,29 @@ pre {
   width: 100%;
   box-sizing: border-box;
 }
+
+.back-button {
+  box-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  top: 18px;
+  left: 10px;
+  padding: 10px 10px;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  transition-duration: 0.8s;
+  cursor: pointer;
+  border-radius: 7px;
+  background-color: #000000; 
+  color: #ff0000; 
+  border: 2px solid #ff0000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px r6ba(255, 0, 0, 0.5);
+}
+
+.back-button:hover {
+  background-color: #300000;
+  color: #ff0000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
+}
