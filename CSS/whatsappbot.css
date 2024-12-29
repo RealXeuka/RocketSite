@@ -1,0 +1,223 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  margin: 0;
+  display: flex;
+  height: auto;
+  overflow-y: auto;
+}
+
+.homepage-title {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  color: red;
+  top: 16px;
+}
+
+.title {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 105px;
+  left: 16px;
+}
+
+.title2 {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 215px;
+  left: 16px;
+}
+
+.title3 {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 325px;
+  left: 16px;
+}
+
+.title4 {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 435px;
+  left: 16px;
+}
+
+.title5 {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 545px;
+  left: 16px;
+}
+
+.title6 {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 655px;
+  left: 16px;
+}
+
+.title7 {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 790px;
+  left: 16px;
+}
+
+.link {
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.credits {
+  color: #ff0000;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  top: -15px;
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.box1 {
+  box-shadow: 0 0 5px #ff0000;
+  background-color: #0a0a0a;
+  border-radius: 8px;
+  line-height: 1.5em; 
+  min-height: 20px;
+  max-width: 800px; 
+  position: relative;
+  overflow: auto; 
+  padding: 15px;
+  width: 93%; 
+  box-sizing: border-box;
+}
+.box2, .box3, .box4, .box5, .box6, .box7 {
+  box-shadow: 0 0 5px #ff0000;
+  background-color: #0a0a0a;
+  border-radius: 8px;
+  line-height: 1.5em; 
+  min-height: 20px;
+  max-width: 800px; 
+  position: relative;
+  overflow: auto; 
+  padding: 15px;
+  width: 93%; 
+  margin-top: 40px;
+  box-sizing: border-box;
+}
+
+.box8 {
+  box-shadow: 0 0 5px #ff0000;
+  background-color: #0a0a0a;
+  border-radius: 8px;
+  line-height: 1.5em; 
+  min-height: 20px;
+  max-width: 800px; 
+  position: relative;
+  overflow: auto; 
+  padding: 15px;
+  width: 93%; 
+  box-sizing: border-box;
+}
+
+.box9 {
+  box-shadow: 0 0 5px #ff0000;
+  background-color: #0a0a0a;
+  border-radius: 8px;
+  line-height: 1.5em; 
+  min-height: 20px;
+  max-width: 800px; 
+  position: relative;
+  overflow: auto; 
+  padding: 15px;
+  width: 93%; 
+  box-sizing: border-box;
+}
+
+.box10 {
+  box-shadow: 0 0 5px #ff0000;
+  background-color: #0a0a0a;
+  border-radius: 8px;
+  line-height: 1.5em; 
+  min-height: 20px;
+  max-width: 800px; 
+  position: relative;
+  overflow: auto; 
+  padding: 15px;
+  width: 93%; 
+  box-sizing: border-box;
+}
+
+pre {
+  background-color: #0a0a0a;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  text-align: left;
+  color: #ffffff;
+  margin: 0;
+  word-wrap: break-word;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.back-button {
+  box-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  top: 18px;
+  left: 10px;
+  padding: 10px 10px;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  transition-duration: 0.8s;
+  cursor: pointer;
+  border-radius: 7px;
+  background-color: #000000; 
+  color: #ff0000; 
+  border: 2px solid #ff0000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px r6ba(255, 0, 0, 0.5);
+}
+
+.back-button:hover {
+  background-color: #300000;
+  color: #ff0000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
+}
