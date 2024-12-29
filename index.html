@@ -8,50 +8,12 @@
 </head>
 <body>
   <div class="homepage-title">Homepage</div>
-  <div class="title">Install Command</div>
-  <div class="title2">Send Message Function</div>
-  <div class="title3">Case Example</div>
-  <div class="title4">Download</div>
-  <div class="container">
-    <div class="box1">
-      <pre id="code1">yarn add @xeuka/baileys</pre>
-    </div>
-    <div class="box2">
-      <pre id="code2">rocket.sendjson = (jidss, jsontxt = {}, outrasconfig = {}) => {
-  const allmsg = generateWAMessageFromContent(
-    jidss,
-    proto.Message.fromObject(jsontxt),
-    outrasconfig
-    ); 
-  return rocket.relayMessage(jidss, allmsg.message, {
-    messageId: allmsg.key.sender
-    }
-  )
-};</pre>
-    </div>
-    <div class="box3">
-      <pre id="code3">case 'test': {
-  rocket.sendjson(from, {
-    "extendedTextMessage":{
-      "text":"This is an Example!"
-      }
-    }
-  )
-}
-break;</pre>
-    </div>
-<div class="box4">
-  <pre id="code4">Download my Bot Base: <span class="link" onclick="window.location.href='https://t.me/RocketClient/63';">Download</span>
   
-Commands:
-apt update
-apt upgrade
-pkg install nodejs</pre>
-</div>
-<div class="box5">
-  <pre id="code5"></pre>
-</div>
-  </div>
+  <div class="title">Install WhatsApp Bot</div>
+  <a href="./whatsappbot.html">
+    <button class="button1">Open</button>
+  </a>
+  <a class="credits" href="https://t.me/RocketClient">Ⓒ Xeuka</a>
   <script src="./JS/index.js"></script>
 </body>
 </html>
