@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="./CSS/messagetypes.css">
+</head>
+<body>
+  <div class="homepage-title">Cases</div>
+  
+  <div class="title">ExtendedTextMessage</div>
+  <div class="title2">Image Message</div>
+  <div class="title3">Document Message</div>
+  <div class="title4">Audio Message</div>
+  <div class="title5">Catalog Message</div>
+  <div class="title6">Location Message</div>
+  <div class="title7">Contact Message</div>
+  <div class="title8">Contact Array Message</div>
+  <div class="title9">Poll Message</div>
+  <div class="title10">Live Location Message</div>
+  <div class="title11">Order Message</div>
+  <div class="title12">Webpage Message</div>
+  <div class="title13">Video Message</div>
+  <div class="title14">Event Message</div>
+  <div class="title15">Group Invite Message</div>
+
+  <button class="back-button" onclick="location.href='index.html'"><</button>
+
+  <div class="container">
+    <div class="box1">
+      <pre id="code1">case '1': {
+  if (!isBot && !isCreator) return;
+  rocket.sendjson(from, {
+    "extendedTextMessage":{
+      "text":"Put here your Text"
+      }
+    }
+  )
+}
+break</pre>
+    </div>
+    <div class="box2">
+      <pre id="code2">case '2': {
+  if (!isBot && !isCreator) return;
+  rocket.sendjson(from,{
+    "imageMessage":{
+      "url":"",
+      "mimetype":"",
+      "caption":"Caption",
+      "fileSha256":"",
+      "fileLength":"",
+      "height":0,
+      "width":0,
+      "mediaKey":"",
+      "fileEncSha256":"",
+      "directPath":"",
+      "jpegThumbnail":""
+      }
+    }
+  )
+}
+break</pre>
+    </div>
+    <div class="box3">
+      <pre id="code3">case '3':{
+  if (!isBot && !isCreator) return;
+  rocket.sendjson(from,{
+    "documentWithCaptionMessage":{
+      "message":{
+        "documentMessage":{
+          "url":"",
+          "mimetype":"",
+          "fileSha256":"",
+          "fileLength":"",
+          "pageCount":0,
+          "mediaKey":"",
+          "fileName":"",
+          "fileEncSha256":"",
+          "directPath":"",
+          "caption":"Caption"
+          }
+        }
+      }
+    }
+  )
+}
+break</pre>
+    </div>
+    <div class="box4">
+      <pre id="code4">case '4': {
+  if (!isBot && !isCreator) return;
+    rocket.sendjson(from,{
+      "audioMessage":{
+        "url":"",
+        "mimetype":"",
+        "fileSha256":"",
+        "fileLength":"",
+        "seconds":0,
+        "ptt":false,
+        "mediaKey":"",
+        "fileEncSha256":"",
+        "directPath":"",
+        "waveform":""
+        }
+      }
+    )
+   }
+break</pre>
+    </div>
+    <div class="box5">
+      <pre id="code5">case '5': {
+  if (!isBot && !isCreator) return;
+  rocket.sendjson(from,{
+    "productMessage":{
+      "product":{
+        "productImage":{
+          "url":"",
+          "mimetype":"",
+          "fileSha256":"",
+          "fileLength":"",
+          "height":0,
+          "width":0,
+          "mediaKey":"",
+          "fileEncSha256":"",
+          "directPath":"",
+          "jpegThumbnail":"",
+          "scansSidecar":"",
+          "scanLengths":[0,0,0,0],
+          "midQualityFileSha256":""},
+          "productId":"9999999999999999",
+          "title":"Title",
+          "description":"Description",
+          "currencyCode":"EUR",
+          "priceAmount1000":"0",
+          "retailerId":"0",
+          "url":"https://YOUR.LINK/",
+          "productImageCount":0,
+          "salePriceAmount1000":"0"},
+          "businessOwnerJid":"@s.whatsapp.net"
+          }
+        }
+      )
+    }
+break</pre>
+    </div>
+    <div class="box6">
+      <pre id="code6">case '6': {
+  if (!isBot && !isCreator) return;
+  rocket.sendjson(from,{
+    "locationMessage":{
+      "degreesLatitude":,
+      "degreesLongitude":-,
+      "name":"Name",
+      "address":"Address",
+      "url":"",
+      "jpegThumbnail":""
+      }
+    }
+  )
+}
+break</pre>
+    </div>
+    <div class="box7">
+      <pre id="code7">case '7': {
+  if (!isBot && !isCreator) return;
+  rocket.sendjson(from,{
+    "contactMessage":{
+      "displayName":"",
+      "vcard":""
+      }
+    }
+  )
+}
+break </pre>
+    </div>
+    <div class="box8">
+      <pre id="code8">case '8': {
+  if (!isBot && !isCreator) return;
+  rocket.sendjson(from,{
+    "contactsArrayMessage":{
+      "displayName":"",
+      "contacts":[{
+        "displayName":"",
+        "vcard":""},
+        {"displayName":"",
+        "vcard":""
+          }
+        ]
+      }
+    }
+  )
+}
+break</pre>
+    </div>
+    <div class="box9">
+      <pre id="code9">case '9':{
+  if (!isBot && !isCreator) return;
+  rocket.sendjson(from,{
+    "pollCreationMessageV3":{
+      "name":"Name",
+      "options":[{
+        "optionName":"Hi"},
+        {"optionName":"Lo"}],
+        "selectableOptionsCount":0
+      }
+    }
+  )
+}
+break</pre>
+    </div>
+    <div class="box10">
+      <pre id="code10">case '10': {
+  if (!isBot && !isCreator) return;
+  rocket.sendjson(from,{
+    "liveLocationMessage":{
+      "degreesLatitude":,
+      "degreesLongitude":,
+      "caption":"Caption",
+      "sequenceNumber":"9999999999999999",
+      "jpegThumbnail":""
+      }
+    }
+  )
+}
+break</pre>
+    </div>
+    <div class="box11">
+      <pre id="code11">case '11':{
+  if (!isBot && !isCreator) return;
+  rocket.sendjson(from,{
+    "orderMessage":{
+      "orderId":"",
+      "thumbnail":"",
+      "itemCount":0,
+      "status":"INQUIRY",
+      "surface":"CATALOG",
+      "message":"Message",
+      "orderTitle":"Title",
+      "sellerJid":"@s.whatsapp.net",
+      "token":"",
+      "totalAmount1000":"0",
+      "totalCurrencyCode":"EUR",
+      "messageVersion":0
+      }
+    }
+  )
+}
+break</pre>
+    </div>
+    <div class="box12">
+      <pre id="code12">case '12': {
+  if (!isBot && !isCreator) return;
+  rocket.sendjson(from,{
+    "extendedTextMessage":{
+      "text":"https://YOUR.LINK/",
+      "matchedText":"https://YOUR.LINK/",
+      "description":"Description",
+      "title":"Title",
+      "previewType":"NONE",
+      "jpegThumbnail":"",
+      "thumbnailDirectPath":"",
+      "thumbnailSha256":"",
+      "thumbnailEncSha256":"",
+      "mediaKey":"",
+      "thumbnailHeight":1024,
+      "thumbnailWidth":1024,
+      "inviteLinkGroupTypeV2":"DEFAULT"
+      }
+    }
+  )
+}
+break</pre>
+    </div>
+    <div class="box13">
+      <pre id="code13">case '13':{
+  if (!isBot && !isCreator) return;
+  rocket.sendjson(from,{
+    "videoMessage":{
+      "url":"",
+      "mimetype":"",
+      "fileSha256":"",
+      "fileLength":"",
+      "seconds":0,
+      "mediaKey":"",
+      "caption":"Caption",
+      "height":0,
+      "width":0,
+      "fileEncSha256":"",
+      "directPath":"",
+      "jpegThumbnail":"",
+      "streamingSidecar":""
+      }
+    }
+  )
+}
+break </pre>
+    </div>
+    <div class="box14">
+      <pre id="code14">case '14': {
+  if (!isBot && !isCreator) return;
+  rocket.sendjson(from,{
+    "eventMessage":{
+      "isCanceled":false,
+      "name":"Name",
+      "description":"Description",
+      "location":{
+        "degreesLatitude":0,
+        "degreesLongitude":0,
+        "name":""},
+        "joinLink":"https://call.whatsapp.com/video/",
+        "startTime":""
+        }
+      }
+    )
+  }
+break</pre>
+    </div>
+    <div class="box15">
+      <pre id="code15">case '15':{
+  if (!isBot && !isCreator) return;
+  rocket.sendjson(from,{
+    "groupInviteMessage":{
+      "groupJid":"0@g.us",
+      "inviteCode":"",
+      "inviteExpiration":"",
+      "groupName":"Name",
+      "caption":"Caption"
+      }
+    }
+  )
+}
+break</pre>
+    </div>
+  </div>
+  <br></br>
+  <a class="credits" href="https://t.me/RocketClient">Ⓒ Xeuka</a>
+  <script src="./JS/messagetypes.js"></script>
+</body>
+</html>
