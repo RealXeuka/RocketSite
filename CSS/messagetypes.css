@@ -27,7 +27,7 @@ body {
   font-weight: bold;
   font-size: 20px;
   color: red;
-  top: 105px;
+  top: 110px;
   left: 16px;
 }
 
@@ -37,7 +37,7 @@ body {
   font-weight: bold;
   font-size: 20px;
   color: red;
-  top: 215px;
+  top: 435px;
   left: 16px;
 }
 
@@ -47,7 +47,7 @@ body {
   font-weight: bold;
   font-size: 20px;
   color: red;
-  top: 330px;
+  top: 1000px;
   left: 16px;
 }
 
@@ -57,7 +57,7 @@ body {
   font-weight: bold;
   font-size: 20px;
   color: red;
-  top: 435px;
+  top: 1640px;
   left: 16px;
 }
 
@@ -67,7 +67,7 @@ body {
   font-weight: bold;
   font-size: 20px;
   color: red;
-  top: 545px;
+  top: 2180px;
   left: 16px;
 }
 
@@ -77,7 +77,7 @@ body {
   font-weight: bold;
   font-size: 20px;
   color: red;
-  top: 655px;
+  top: 3080px;
   left: 16px;
 }
 
@@ -87,7 +87,87 @@ body {
   font-weight: bold;
   font-size: 20px;
   color: red;
-  top: 790px;
+  top: 3525px;
+  left: 16px;
+}
+
+.title8 {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 3875px;
+  left: 16px;
+}
+
+.title9 {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 4370px;
+  left: 16px;
+}
+
+.title10 {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 4795px;
+  left: 16px;
+}
+
+.title11 {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 5215px;
+  left: 16px;
+}
+
+.title12 {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 5805px;
+  left: 16px;
+}
+
+.title13 {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 6420px;
+  left: 16px;
+}
+
+.title14 {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 7030px;
+  left: 16px;
+}
+
+.title15 {
+  text-shadow: 0 0 5px #ff0000;
+  position: absolute;
+  font-weight: bold;
+  font-size: 20px;
+  color: red;
+  top: 7550px;
   left: 16px;
 }
 
@@ -128,7 +208,7 @@ body {
   width: 93%; 
   box-sizing: border-box;
 }
-.box2, .box3, .box4, .box5, .box6, .box7 {
+.box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13, .box14, .box15 {
   box-shadow: 0 0 5px #ff0000;
   background-color: #0a0a0a;
   border-radius: 8px;
@@ -140,48 +220,6 @@ body {
   padding: 15px;
   width: 93%; 
   margin-top: 40px;
-  box-sizing: border-box;
-}
-
-.box8 {
-  box-shadow: 0 0 5px #ff0000;
-  background-color: #0a0a0a;
-  border-radius: 8px;
-  line-height: 1.5em; 
-  min-height: 20px;
-  max-width: 800px; 
-  position: relative;
-  overflow: auto; 
-  padding: 15px;
-  width: 93%; 
-  box-sizing: border-box;
-}
-
-.box9 {
-  box-shadow: 0 0 5px #ff0000;
-  background-color: #0a0a0a;
-  border-radius: 8px;
-  line-height: 1.5em; 
-  min-height: 20px;
-  max-width: 800px; 
-  position: relative;
-  overflow: auto; 
-  padding: 15px;
-  width: 93%; 
-  box-sizing: border-box;
-}
-
-.box10 {
-  box-shadow: 0 0 5px #ff0000;
-  background-color: #0a0a0a;
-  border-radius: 8px;
-  line-height: 1.5em; 
-  min-height: 20px;
-  max-width: 800px; 
-  position: relative;
-  overflow: auto; 
-  padding: 15px;
-  width: 93%; 
   box-sizing: border-box;
 }
 
