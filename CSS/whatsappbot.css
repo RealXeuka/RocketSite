@@ -28,7 +28,7 @@ body {
   font-size: 20px;
   color: red;
   top: 105px;
-  left: 16px;
+  text-align: center;
 }
 
 .title2 {
@@ -38,7 +38,7 @@ body {
   font-size: 20px;
   color: red;
   top: 215px;
-  left: 16px;
+  text-align: center;
 }
 
 .title3 {
@@ -48,7 +48,7 @@ body {
   font-size: 20px;
   color: red;
   top: 330px;
-  left: 16px;
+  text-align: center;
 }
 
 .title4 {
@@ -58,7 +58,7 @@ body {
   font-size: 20px;
   color: red;
   top: 435px;
-  left: 16px;
+  text-align: center;
 }
 
 .title5 {
@@ -68,7 +68,7 @@ body {
   font-size: 20px;
   color: red;
   top: 545px;
-  left: 16px;
+  text-align: center;
 }
 
 .title6 {
@@ -78,7 +78,7 @@ body {
   font-size: 20px;
   color: red;
   top: 655px;
-  left: 16px;
+  text-align: center;
 }
 
 .title7 {
@@ -88,7 +88,7 @@ body {
   font-size: 20px;
   color: red;
   top: 790px;
-  left: 16px;
+  text-align: center;
 }
 
 .link {
